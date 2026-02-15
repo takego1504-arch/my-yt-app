@@ -16,7 +16,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # API設定（StreamlitのSecretsから取得）
-API_KEY = st.secrets["YOUTUBE_API_KEY"]
+API_KEY = st.secrets["AIzaSyAYZZ9EVRDhCAdX45MN3jvi9ANvFMsHjEk"]
 youtube = build("youtube", "v3", developerKey=API_KEY)
 
 st.title("📊 YouTube Trend")
